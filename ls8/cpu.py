@@ -110,7 +110,7 @@ class CPU:
 
         # print(self.ram_read(2))
 
-        print(self.reg)
+        print(self.reg[2])
         
         # self.trace()
 
