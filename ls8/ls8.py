@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import sys
+
 """Main."""
 
 import sys
@@ -30,7 +32,7 @@ else:
             if len(code) > 0:
                 program.append(int(code, 2))
 
-cpu = CPU()
+    cpu = CPU()
 
-cpu.load()
-cpu.run()
+    cpu.load(program)
+    cpu.run()
